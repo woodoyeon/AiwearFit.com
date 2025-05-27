@@ -11,13 +11,10 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const app = express();
-app.use(cors({
-  origin: ['http://localhost:5173', 'https://ai-shop-automation-project.vercel.app'],
-  credentials: true
-}));
-
+app.use(cors());
 app.use(express.json());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+
 
 // ✅ 라우터 연결
 import generateTextFromImage from './routes/generateTextFromImage.js'; // 필요 시 유지
