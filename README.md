@@ -213,12 +213,12 @@ POST /api/commerce/cafe24/sync
 
 ## 📑 프로젝트 자료
 
-- 📄 [테크 리포트 PDF](./docs/AiwearFit.pdf)  
+- 📄 [테크 리포트 PDF](./AiwearFit.pdf)
   (프로젝트 개요, 아키텍처, 주요 기능, 성과 정리)
 
 - 🎬 시연 영상
-  - [Video1 — 기본 기능 데모](./docs/video1.mp4)  
-  - [Video2 — Cafe24 연동 & 자동 업로드 데모](./docs/video2.mp4)
+  - [Video1 — 기본 기능 데모](./video1.mp4)  
+  - [Video2 — Cafe24 연동 & 자동 업로드 데모](./video2.mp4)
 
 > 위 리포트와 영상은 실제 서비스 구동 화면과 기술 설명을 포함합니다.
 ---
