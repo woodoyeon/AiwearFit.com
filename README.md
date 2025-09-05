@@ -213,7 +213,7 @@ POST /api/commerce/cafe24/sync
 
 ## 📑 프로젝트 자료
 
-- 📄 [테크 리포트 PDF](./docs/AiwearFit_TechReport.pdf)  
+- 📄 [테크 리포트 PDF](./docs/AiwearFit.pdf)  
   (프로젝트 개요, 아키텍처, 주요 기능, 성과 정리)
 
 - 🎬 시연 영상
