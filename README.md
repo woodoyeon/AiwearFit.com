@@ -127,11 +127,55 @@
 
 ---
 
+
+### 🚀 배포(라이브)
+
+<p align="center">
+  <a href="https://ai-shop-automation-project.vercel.app/" target="_blank" style="text-decoration:none;">
+    <kbd style="padding:12px 18px; font-size:16px; background:#000; color:#fff; border-radius:8px;">
+      🔥 AiwearFit (Vercel) — 바로 열기
+    </kbd>
+  </a>
+</p>
+
+> **Tip**  
+> - 로컬 파일 경로(`./AiwearFit.pdf`, `./video1.mp4`, `./video2.mp4`)가 리포지토리 최상위에 위치해야 위 링크가 정상 동작합니다.  
+> - 다른 폴더에 있다면 링크 경로만 맞게 변경해주세요.
+
 ### STEP 10. 배포
 ![STEP10](./images/16.png)  
 👉 Vercel(프론트), Render(백엔드)로 배포 완료.  
 
 ---
+
+### 🎬 시연 영상 상세
+
+<details>
+<summary><b>▶ Video 1 — 기본 기능 데모 (클릭하여 열기)</b></summary>
+
+**재생 흐름**
+1) 로그인  
+2) AI 모델 생성  
+3) 상품 이미지 업로드  
+4) AI 피팅 이미지 생성  
+5) 상품 설명문 자동 생성  
+6) 관리자 승인 요청  
+7) 관리자 승인 후 쇼핑몰 자동 업로드  
+8) “나의 상세페이지”에서 업로드 확인
+
+**파일**: [`./video1.mp4`](./video1.mp4)
+</details>
+
+<details>
+<summary><b>▶ Video 2 — Cafe24 연동 & 자동 업로드 (클릭하여 열기)</b></summary>
+
+**추천 시청 구간**: **0:01:14 ~ 0:02:51**  
+**하이라이트**
+- Cafe24 API로 상품 등록/수정 자동 업로드
+- 쇼핑몰 **AI 챗봇** 실시간 응답 시연(문의 → 톤/템플릿 추천 → 구매 유도)
+
+**파일**: [`./video2.mp4`](./video2.mp4)
+</details>
 
 ### 🎬 시연 영상
 ![시연영상](./images/17.png)  
@@ -203,6 +247,17 @@ cd client && npm install && npm run dev
 
 * 프론트: [http://localhost:5173](http://localhost:5173)
 * 백엔드: [http://localhost:8080](http://localhost:8080)
+
+---
+
+### 🗂️ 자료 모아보기
+
+| 구분 | 파일 | 내용 요약 |
+|---|---|---|
+| 📄 Tech Report | [`AiwearFit.pdf`](./AiwearFit.pdf) | 프로젝트 개요, 아키텍처, 핵심 기능, 성과, 개선 방향 일괄 정리 |
+| 🎞️ Demo Video 1 | [`video1.mp4`](./video1.mp4) | **기본 기능**: 로그인 → 모델 생성 → 상품 업로드 → AI 피팅 → 설명문 생성 → 승인 요청 → 자동 업로드 → “나의 상세페이지” 확인 |
+| 🎞️ Demo Video 2 | [`video2.mp4`](./video2.mp4) | **Cafe24 연동 데모** + **AI 챗봇 응대 시연** *(추천 구간: 0:01:14 ~ 0:02:51)* |
+| 🚀 Live | Vercel 배포 | https://ai-shop-automation-project.vercel.app/ |
 
 ---
 
