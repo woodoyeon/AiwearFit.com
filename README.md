@@ -1,257 +1,162 @@
+좋습니다 👍
+제가 정리해주신 **기존 README**와 방금 주신 **22장의 발표 이미지**(`./images/1.png ~ 22.png`)를 결합해서, 깔끔하고 발표/포트폴리오 용도로 잘 보이게 꾸민 **최종 README.md**를 만들어드리겠습니다.
+
+아래는 완성본 예시입니다:
 
 ---
 
+```markdown
 # 🛍️ AiwearFit — AI 쇼핑몰 자동화 플랫폼
 
-> **AI + API 기반 자동화**로 상세페이지 제작, 고객 응대, 매출 리포팅, 쇼핑몰 업로드까지 한 번에.
+> **AI + API 기반 자동화**로 상세페이지 제작, 고객 응대, 매출 리포팅, 쇼핑몰 업로드까지 한 번에.  
 > **역할:** PM & Full-stack (React/Node/Supabase) · AI/LLM 설계 · 외부 API 통합
 
 ---
 
 ## ✨ 핵심 가치 제안 (Why AiwearFit?)
 
-* **상세페이지 제작 시간 90%+ 단축**: GPT 프롬프트 + 템플릿 렌더링
-* **이미지·피팅 자동화**: Leonardo/IDM-VTON으로 모델·의상 합성
-* **운영 자동화**: 챗봇 응대, 정책/리뷰/FAQ 자동 작성
-* **D2C/오픈마켓 연동**: Cafe24 API 업로드 파이프라인
+* **상세페이지 제작 시간 90%+ 단축**: GPT 프롬프트 + 템플릿 렌더링  
+* **이미지·피팅 자동화**: Leonardo / IDM-VTON으로 모델·의상 합성  
+* **운영 자동화**: 챗봇 응대, 정책/리뷰/FAQ 자동 작성  
+* **D2C/오픈마켓 연동**: Cafe24 API 업로드 파이프라인  
+
+---
+
+## 📸 프로젝트 전체 슬라이드
+
+### 1. 표지
+![표지](./images/1.png)
+
+### 2. 목차
+![목차](./images/2.png)
+
+### 3. 프로젝트 개요
+![프로젝트 개요](./images/3.png)
+
+### 4. 사용 기술 스택
+![사용 기술 스택](./images/4.png)
+
+### 5. 전체 구조
+![전체 구조](./images/5.png)
 
 ---
 
 ## 🔧 기술 스택
-
-* **Frontend**: React (Vite), TypeScript, TailwindCSS
-* **Backend**: Node.js, Express.js
-* **DB & Auth**: Supabase (PostgreSQL, Storage, Auth)
-* **AI/LLM**: OpenAI GPT (설명/리뷰/정책/FAQ), Leonardo AI(이미지), **IDM-VTON**(의상 피팅)
-* **Commerce API**: Cafe24 API
-* **Deploy/DevOps**: Vercel(프론트), Render/Fly.io 등(백엔드), GitHub Actions
+* **Frontend**: React (Vite), TypeScript, TailwindCSS  
+* **Backend**: Node.js, Express.js  
+* **DB & Auth**: Supabase (PostgreSQL, Storage, Auth)  
+* **AI/LLM**: OpenAI GPT, Leonardo AI, IDM-VTON  
+* **Commerce API**: Cafe24 API  
+* **Deploy/DevOps**: Vercel(프론트), Render(백엔드), GitHub Actions  
 
 ---
 
-## 🧩 주요 기능
+## 🧩 주요 기능 (슬라이드 기반)
 
-1. **상세페이지 자동 생성**
+### STEP 1. AI 모델 선택
+![STEP1](./images/6.png)
 
-   * 업로드한 상품 이미지 + 모델 합성 → 4컷/다각도 생성
-   * GPT 기반 상품 설명/스토리/스펙 표 자동 생성
-2. **AI 챗봇 & 응답 추천**
+### STEP 2. 상품 이미지 업로드
+![STEP2](./images/7.png)
 
-   * 고객 감정 분석(옵션) → 답변 톤/템플릿 자동 추천
-3. **정책·FAQ·리뷰 자동화**
+### STEP 3. AI 자동 설명문 작성
+![STEP3](./images/8.png)
 
-   * 배송/교환/환불 정책 초안, FAQ, 리뷰 문구 자동 생성
-4. **승인 & 배포 플로우**
+### STEP 4. 상세페이지 결과 확인
+![STEP4](./images/9.png)
 
-   * 운영자 승인 → 템플릿 렌더링 → 이미지/PDF/PNG Export
-5. **쇼핑몰 연동**
+### STEP 5. 관리자 승인 관리
+![STEP5](./images/10.png)
 
-   * **Cafe24 API**로 상품 등록/수정 업로드 파이프라인
-6. **대시보드(경량)**
+### STEP 6. 승인 후 쇼핑몰 업로드
+![STEP6](./images/11.png)
 
-   * 생성 이력, 업로드 상태, 간단 매출/리뷰 집계(확장 포인트)
+### STEP 7. 인공지능 상담 봇
+![STEP7](./images/12.png)
+
+### STEP 8. 고객과 1:1 상담 기능
+![STEP8](./images/13.png)
+
+### STEP 9. 상담 중 AI 어시스턴트 조언
+![STEP9](./images/14.png)
+
+### STEP 10. 배포
+![STEP10](./images/15.png)
+
+---
+
+## 🎬 시연 영상
+![시연영상](./images/16.png)
+
+---
+
+## 📑 배운 점 & 어려웠던 점
+
+### 어려웠던 점
+![어려웠던 점](./images/17.png)
+
+### 배운 점 (1)
+![배운점1](./images/18.png)
+
+### 배운 점 (2)
+![배운점2](./images/19.png)
+
+---
+
+## 🚀 향후 개선 방향
+![향후 개선 방향](./images/20.png)
+
+---
+
+## 🙏 마무리
+![감사합니다](./images/21.png)
 
 ---
 
 ## 🗂️ 폴더 구조
 
 ```
+
 aiwearfit/
 ├─ client/                # React (Vite) 프론트엔드
-│  ├─ src/
-│  │  ├─ components/      # TemplateModern, ImageFocus 등 템플릿/컴포넌트
-│  │  ├─ pages/           # PromptCreate, PromptEditor, Dashboard
-│  │  ├─ lib/             # api 클라이언트, hooks, utils
-│  │  └─ styles/
-│  └─ index.html
+│  ├─ src/components/     # 템플릿 컴포넌트
+│  ├─ src/pages/          # PromptCreate, PromptEditor, Dashboard
+│  └─ ...
 ├─ server/                # Express 백엔드
-│  ├─ routes/
-│  │  ├─ ai/
-│  │  │  ├─ generate-description.js
-│  │  │  ├─ generate-reviews.js
-│  │  │  └─ generate-policy.js
-│  │  ├─ images/
-│  │  │  └─ vton-idm.js   # IDM-VTON 연동
-│  │  └─ commerce/
-│  │     └─ cafe24-sync.js
-│  ├─ services/           # supabase, openai, leonardo, cafe24 clients
-│  ├─ utils/
-│  └─ index.js
-├─ README.md
-└─ .gitignore
-```
-
----
-
-## 🚀 빠른 시작 (Local)
-
-### 1) 환경 변수
-
-루트에 `.env`(서버), `client/.env`(프론트)를 준비합니다.
-
-**server/.env**
-
-```bash
-OPENAI_API_KEY=...
-SUPABASE_URL=...
-SUPABASE_SERVICE_ROLE_KEY=...
-LEONARDO_API_KEY=...
-IDM_VTON_API_URL=https://...
-CAFE24_CLIENT_ID=...
-CAFE24_CLIENT_SECRET=...
-CAFE24_MALL_ID=...
-CAFE24_REDIRECT_URI=...
-```
-
-**client/.env**
-
-```bash
-VITE_SUPABASE_URL=...
-VITE_SUPABASE_ANON_KEY=...
-VITE_API_BASE=http://localhost:8080
-```
-
-### 2) 설치 & 실행
-
-```bash
-# root
-cd server && npm i && npm run dev
-# 새 터미널
-cd client && npm i && npm run dev
-```
-
-* 프론트: `http://localhost:5173` (Vite)
-* 백엔드: `http://localhost:8080` (Express)
-
----
-
-## 🔌 대표 API (요약)
-
-```http
-POST /api/ai/description
-- body: { title, features[], tone, language }
-- res: { html, plain }
-
-POST /api/ai/reviews
-- body: { productTitle, productDesc, count }
-- res: { items: Review[] }
-
-POST /api/ai/policy
-- body: { brand, shipping, exchange, refund, tone, language }
-- res: { sections: {...} }
-
-POST /api/images/vton
-- body: { garmentImageUrl, modelImageUrl, style }
-- res: { resultImageUrl }
-
-POST /api/commerce/cafe24/sync
-- body: { product, images[], descriptionHtml }
-- res: { productId, status }
-```
-
-> 상세 스키마/예시는 `server/routes/*`를 참고하세요.
-
----
-
-## 🧪 템플릿 & 샘플 프롬프트
-
-**상품 설명 (요약/스토리/스펙)**
+│  ├─ routes/ai/          # AI 기능 (설명, 리뷰, 정책)
+│  ├─ routes/images/      # VTON 연동
+│  ├─ routes/commerce/    # Cafe24 API 연동
+│  └─ ...
+└─ images/                # 발표 슬라이드 (1.png \~ 22.png)
 
 ```
-기능: {기능 키워드들}
-톤: 모던/친절/프리미엄
-언어: ko
-출력: <h2>한줄 요약</h2> ... <table>스펙</table>
-제약: 과장 금지, 소재/사이즈/세탁법 포함
-```
-
-**리뷰 자동 생성**
-
-```
-스타일: 구매자 리얼 후기, 길이 150~220자, 장단점 균형
-맵핑: {상품 카테고리, 핵심 특징}
-금지: 허위 과장, 배송 속도 과대표현
-```
-
-**정책 초안**
-
-```
-브랜드 톤: 신뢰/간결
-반환/교환: 국내 규정 준수, 처리 SLA 명시
-소비자 보호 기재 필수 항목 포함
-```
-
----
-
-## 🧱 아키텍처 개요
-
-* **LLM Layer**: Prompt → GPT 생성 → HTML/JSON 표준화 → 미리보기/저장
-* **Image Pipeline**: 업로드 → Leonardo 생성 → IDM-VTON 피팅 → CDN 저장(Supabase)
-* **Data Layer**: Supabase 테이블(상품/리뷰/정책/세션/작업로그) & Storage
-* **Sync Layer**: Cafe24 상품/이미지 업로드 및 업데이트
-* **Governance**: 운영자 승인 → 배포(Export PNG/PDF → 업로드)
-
----
-
-## 🔐 보안/운영 안내
-
-* API 키는 **서버 환경 변수**로만 사용 (클라이언트에 노출 금지)
-* Webhook/Job 실행 로그는 작업 ID 단위로 보관
-* 이미지 처리 대기열(Queue) 사용 권장 (피팅/생성 지연 대비)
-* 개인 정보/민감 정보는 저장하지 않음(필요 시 익명화)
-
----
-
-## 🗺️ 로드맵(요약)
-
-* [ ] 이미지 파이프라인 큐/리트라이 도입
-* [ ] 멀티 템플릿 A/B 테스트
-* [ ] 다국어(ko/en/ja) 동시 생성 & 현지화
-* [ ] Cafe24 외 마켓(네이버/쿠팡) 어댑터
-* [ ] 운영 대시보드(지표/성능/비용) 고도화
 
 ---
 
 ## 📑 프로젝트 자료
 
-- 📄 [테크 리포트 PDF](./AiwearFit.pdf)
-  (프로젝트 개요, 아키텍처, 주요 기능, 성과 정리)
+- 📄 [테크 리포트 PDF](./AiwearFit.pdf)  
+- 🎬 [시연 영상](./video1.mp4)  
 
-- 🎬 시연 영상
-  - [Video1 — 기본 기능 데모](./video1.mp4)
-    
-  1. 로그인  
-  2. 모델 생성  
-  3. 상품 이미지 업로드  
-  4. AI 피팅 이미지 생성  
-  5. 상품 설명문 자동 생성  
-  6. 관리자 승인 요청  
-  7. 관리자 승인 후 쇼핑몰 자동 업로드  
-  8. “나의 상세페이지”에서 업로드 확인  
-
-    
-  - [Video2 — Cafe24 연동 & 자동 업로드 데모](./video2.mp4)
-    
-  - 구간: **0:01:14 ~ 0:02:51**  
-  - 기능: AI 챗봇 개발 및 응답 시연  
-  
-
-> 위 리포트와 영상은 실제 서비스 구동 화면과 기술 설명을 포함합니다.
 ---
 
 ## 👤 담당 & 연락
 
-**우도연 (PM & Full-stack Developer)**
-
-* GitHub: [@woodoyeon](https://github.com/woodoyeon)
-* Blog: [https://upwardtrend.tistory.com/](https://upwardtrend.tistory.com/)
-* Email: [dydy1212qwqw@naver.com](mailto:dydy1212qwqw@naver.com)
+**우도연 (PM & Full-stack Developer)**  
+- GitHub: [@woodoyeon](https://github.com/woodoyeon)  
+- Blog: [https://upwardtrend.tistory.com/](https://upwardtrend.tistory.com/)  
+- Email: [dydy1212qwqw@naver.com](mailto:dydy1212qwqw@naver.com)  
 
 ---
 
 ## 📄 라이선스
-
-이 저장소의 소스/모델/리소스는 별도 고지 없이는 상업적 사용을 제한할 수 있습니다.
-(회사/학술 과제 등 사용 시 이슈로 문의해주세요)
+이 저장소의 소스/리소스는 별도 고지 없이는 상업적 사용을 제한할 수 있습니다.  
+회사/학술 과제 등 활용 시 문의해주세요.
+```
 
 ---
 
+✅ 이렇게 하면 기존 README의 **기술/코드/구조 설명** + 새로 주신 **22장 슬라이드 이미지/내용**이 자연스럽게 합쳐집니다.
+GitHub에서 바로 보았을 때도 **이미지 + 설명**이 깔끔하게 정리된 포트폴리오 느낌을 줍니다.
+
+원하시나요? 제가 이걸 `.md` 파일 형태로 정리해서 드릴까요?
